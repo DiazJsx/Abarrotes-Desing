@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <titles></titles>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <link rel="preload" as="image" href="./assets/images/galletas.png"min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+</head>
+
+<body id="top">
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">5 COMENTARIOS<span class="span">.</span></a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="#home" class="navbar-link" data-nav-link>Incio</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="navbar-link" data-nav-link>Sobre Nosotros</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#food-menu" class="navbar-link" data-nav-link>Productos</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="navbar-link" data-nav-link>Contacta con nosotros</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="btn btn-hover">Pedido</button>
+
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-container>
+
+    <div class="search-box">
+      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+        class="search-input">
+
+      <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+    </div>
+
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('./assets/images/fondo-centro.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Pedir y estar seguro</p>
+
+            <h2 class="h1 hero-title">¡Bienvenido a su tienda de abarrotes de confianza!</h2>
+
+            <p class="hero-text">Su satisfacción es nuestra máxima prioridad.</p>
+
+            <button class="btn">Pedir un Producto</button>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/banner.png" width="820" height="716" alt="" aria-hidden="true"
+              class="w-100 hero-img-bg">
+
+            <img src="./assets/images/Compras.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 hero-img">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROMO
+      -->
+
+      <section class="section section-divider white promo">
+        <div class="container">
+
+          <ul class="promo-list has-scrollbar">
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+
+                </div>
+
+                <h3 class="h3 card-title">Productos de Limpieza</h3>
+
+                <p class="card-text">
+                  Detergentes, Jabones, Desinfectantes, Papel higiénico y Bolsas de basura 
+                </p>
+
+                <img src="./assets/images/Detergente.png" width="300" height="300" loading="lazy" alt="Maxican Pizza"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+
+                </div>
+
+                <h3 class="h3 card-title">Bebidas en General</h3>
+
+                <p class="card-text">
+                  Agua, Gaseosas,  Infusiones, Tés, Café, Jugos y Otras bebidas
+                </p>
+
+                <img src="./assets/images/Agua.png" width="300" height="300" loading="lazy" alt="Soft Drinks"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+
+                </div>
+
+                <h3 class="h3 card-title">Snacks y Dulces</h3>
+
+                <p class="card-text">
+                  Clasicas, Papas fritas, Galletas saladas y dulces, Confitería y Chifles
+                </p>
+
+                <img src="./assets/images/lays.png" width="300" height="300" loading="lazy" alt="French Fry"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+
+                </div>
+
+                <h3 class="h3 card-title">Condimentos y Salsas</h3>
+
+                <p class="card-text">
+                  Mayonesa, Salsa de tomate, Especias, Aderezos y Hierbas aromáticas
+                </p>
+
+                <img src="./assets/images/Tomate.png" width="300" height="300" loading="lazy" alt="Burger Kingo"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+
+                </div>
+
+                <h3 class="h3 card-title">Limpieza Personal</h3>
+
+                <p class="card-text">
+                  Jabones, Pasta dental, Cepillos, Shampoo, Jabon de Mano y Cuerpo, Entre otra cosas
+                </p>
+
+                <img src="./assets/images/DienteS.png" width="300" height="300" loading="lazy" alt="Chicken Masala"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+
+            
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+
+                </div>
+
+                <h3 class="h3 card-title">Lacteos y Enlatados</h3>
+
+                <p class="card-text">
+                  Leche, Mantequilla, Mermelada, Atún y entre otras cosas que necesites
+                </p>
+
+                <img src="./assets/images/Atun.png" width="300" height="300" loading="lazy" alt="Chicken Masala"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section section-divider gray about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+            <img src="./assets/images/Descuento.png" width="509" height="459" loading="lazy" alt="Burger with Drinks"
+              class="w-100 about-img">
+
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">
+              Abarrotes 5 Comentarios , Todo lo que Necesitas en un
+              <span class="span">¡Solo Lugar!</span>
+            </h2>
+
+            <p class="section-text">
+              Descubre el encanto de Abarrotes 5 Comentarios, donde encontrarás una amplia selección de productos
+              de calidad que satisfacen tus necesidades diarias. Desde productos frescos hasta artículos de despensa,
+              ¡tenemos todo lo que necesitas bajo un mismo techo!
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Amplia gama de opciones para satisfacer todos los gustos y necesidades</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Productos seleccionados con los más altos estándares para tu bienestar y comodidad.</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Atención personalizada y amable para que te sientas como en casa.</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Todo lo que necesitas al alcance de tu mano, lo mejor que mereces</span>
+              </li>
+
+            </ul>
+
+            <button class="btn btn-hover">Ordenar ahora</button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FOOD MENU
+      -->
+
+      <section class="section food-menu" id="food-menu">
+        <div class="container">
+
+          <p class="section-subtitle">Productos Populares</p>
+
+          <h2 class="h2 section-title">
+            Calidad y Variedad <span class="span"> Inigualables</span>
+          </h2>
+
+          <p class="section-text">
+            Caser@, Acá tenemos siempre los mejores precios, y además, estoy cerca a tu hogar.
+          </p>
+
+          <ul class="fiter-list">
+
+            <li>
+              <button class="filter-btn  active">Todo</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Productos de Limpieza</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Snack y Dulces</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Condimentos y Salsas</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">sBebidas en General</button>
+            </li>
+
+          </ul>
+
+          <ul class="food-menu-list">
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/lejiazul.png" width="300" height="300" loading="lazy"
+                    alt="Fried Chicken Unlimited" class="w-100">
+
+                  <div class="badge">-66%</div>
+
+                  <button class="btn food-menu-btn">Ordenar ahora</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Productos de Limpieza</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Lejía, Papel Higienico , Poett, Etc.</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Precio:</p>
+
+                  <data class="price">S/2.00</data>
+
+                  <del class="del" value="69.00">S/3.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/cola.png" width="300" height="300" loading="lazy"
+                    alt="Burger King Whopper" class="w-100">
+
+                  <div class="badge">-20%</div>
+
+                  <button class="btn food-menu-btn">Ordenar ahora</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Bebidas en general</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Gaseosas inca cola, coca cola, Etc.</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Precio:</p>
+
+                  <data class="price" value="29.00">S/2.50</data>
+s
+                  <del class="del">S/3.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/morochas.png" width="300" height="300" loading="lazy"
+                    alt="White Castle Pizzas" class="w-100">
+
+                  <div class="badge">-25%</div>
+
+                  <button class="btn food-menu-btn">Ordenar ahora</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Snacks y Dulces</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Morochas, Papas Lays, Ondas Lays, Etc.</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Precio:</p>
+
+                  <data class="price" value="49.00">S/1.20</data>
+
+                  <del class="del">S/1.50</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/mayonesa.png" width="300" height="300" loading="lazy"
+                    alt="Bell Burrito Supreme" class="w-100">
+
+                  <div class="badge">-25%</div>
+
+                  <button class="btn food-menu-btn">Ordenar ahora</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Contimentos y Salsas</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Mayonesa, Mostasa, ketchup, Etc.</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Precio:</p>
+
+                  <data class="price" value="59.00 ">S/4.00</data>
+
+                  <del class="del">S/5.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/colgate.png" width="300" height="300" loading="lazy"
+                    alt="Kung Pao Chicken BBQ" class="w-100">
+
+                  <div class="badge">-20%</div>
+
+                  <button class="btn food-menu-btn">Ordenar ahora</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Limpieza Personal</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Pasta Dental, Shampoo, Cepillo, Jabon, sEtc.</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Precio:</p>
+
+                  <data class="price" value="49.00">S/6.50</data>
+
+                  <del class="del">S/7.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/leche.png" width="300" height="300" loading="lazy"
+                    alt="Wendy's Chicken" class="w-100">
+
+                  <div class="badge">-20%</div>
+
+                  <button class="btn food-menu-btn">Ordenar ahora</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Lacteos y Enlatados</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Leche, Mantequilla, Mermelada, Atún, Etc.</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="49.00">S/4.00</data>
+
+                  <del class="del">S/4.50</del>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section section-divider white cta" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="cta-content">
+
+            <h2 class="h2 section-title">
+              Acá es donde verás y encontraras 
+              <span class="span">Productos de calidad!</span>
+            </h2>
+
+            <br class="section-text">
+              Los Abarrotes 5 Comentarios son un oasis de bienvenida para todos,
+              ofreciendo productos frescos y de calidad con un servicio excepcional.
+              ¡Ven y descubre tu nuevo lugar favorito para hacer tus compras!
+            </p>
+
+            <h2 class="h2 section-title">
+              El mejor descuento en tu golosina favorita!!
+              <span class="span">por tiempo limitado.</span>
+            </h2>
+<br/>
+<br/>
+<br/>
+            <button class="btn btn-hover">Ordenar ahora</button>
+          </div>
+
+          <figure class="cta-banner">
+            <img src="./assets/images/Trululú.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 cta-img">
+
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section section-divider white testi">
+        <div class="container">
+
+          <p class="section-subtitle">Testimonios</p>
+
+          <h2 class="h2 section-title">
+            Nuestros Clientes <span class="span">Reseñas</span>
+          </h2>
+
+          <p class="section-text">
+            Los alimentos son más que solo comida. Son una forma de arte y una expresión de nuestra creatividad.
+          </p>
+
+          <ul class="testi-list has-scrollbar">
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/Icon.jpg" width="80" height="80" loading="lazy" alt="Hans Diaz D.">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Pedro Caycho H.</h3>
+
+                    <p class="testi-title">Estudiante de Desarrollo de Software</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  ¡5 Comentario es mi nuevo abarrotes favorito! Desde que lo descubrí hace unos meses, no he parado de ir.
+                  Tienen una gran variedad de productos, desde alimentos frescos hasta artículos de limpieza, todo a precios
+                  muy convenientes. El personal es siempre amable y servicial, y el local está siempre limpio y ordenado.
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/Icon.jpg" width="80" height="80" loading="lazy" alt="Pedro Caycho H">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Romulo Janampa V.</h3>
+
+                    <p class="testi-title">Estudiante de Electricidad Industrial</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  ¡He estado comprando en 5 Comentario durante años y nunca me ha decepcionado! Es un negocio familiar con un ambiente
+                  cálido y acogedor. Los propietarios siempre están dispuestos a ayudarte a encontrar lo que necesitas
+                  y te dan consejos sobre cómo cocinar y como alimentarte.
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/Icon.jpg" width="80" height="80" loading="lazy" alt="Romulo Janampa V.">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Hans Diaz D</h3>
+
+                    <p class="testi-title">Estudiante de Desarrollo de Software</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  Siempre estoy buscando una buena oferta y 5 Comentario nunca me decepciona.
+                  Siempre tienen ofertas en una variedad de artículos, y sus precios son generalmente más bajos
+                  que los de la competencia y lo recomiendo a todas las personas que necesiten productos de calidad y muy buenos.
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      <!-- 
+        - #BANNER
+      -->
+
+      <section class="section section-divider gray banner">
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li class="banner-item banner-lg">
+              <div class="banner-card">
+
+                <img src="./assets/images/arroz.jpg" width="550" height="450" loading="lazy"
+                  alt="Discount For Delicious Tasty Burgers!" class="banner-img">
+
+                <div class="banner-item-content">
+
+                  <h3 class="banner-title">Compra el mejor arroz para tus comidas. ¡Calidad garantizada!</h3>
+
+                  <p class="banner-text">Oferta de descuento del 05 % solo esta semana</p>
+
+                  <button class="btn">Ordenar ahora</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/azucar.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">El mejor azúcar</h3>
+
+                  <p class="banner-text">¡05% de descuento ahora!</p>
+
+                  <button class="btn">Ordenar ahora</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/fideo.jpg" width="550" height="465" loading="lazy" alt="American Burgers"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Fideos de calidad</h3>
+
+                  <p class="banner-text">¡05% de descuento ahora!</p>
+
+                  <button class="btn">Ordenar ahora</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-md">
+              <div class="banner-card">
+
+                <img src="./assets/images/huevos.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Huevos frescos</h3>
+
+                  <p class="banner-text">Oferta de descuento del 05 % solo esta semana</p>
+
+                  <button class="btn">Ordenar ahora</button>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section section-divider white blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Últimas publicaciones de blog</p>
+
+          <h2 class="h2 section-title">
+            Reconmedaciones de los <span class="span">Clientes </span>
+          </h2>
+
+          <p class="section-text">
+            Despierta tus sentidos con la sinfonía de productos frescos de 5 Comentarios.
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/Lentejass.jpg" width="600" height="390" loading="lazy"
+                    alt="What Do You Think About Cheese Pizza Recipes?" class="w-100">
+
+                  <div class="badge">Lentejas</div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="card-meta-wrapper">
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time class="meta-info" datetime="2023-04-09">15 de Septiembre del 2023 </time>
+                    </a>
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <p class="meta-info">Ana De la cruz Y.</p>
+                    </a>
+
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">¿Qué opinas de las lentejas?</a>
+                  </h3>
+
+                  <p class="card-text">
+                    La magia de las lentejas 5 Comentarios: Un sabor que te abraza y te reconforta.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Leer más</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/arrozzz.jpg" width="600" height="390" loading="lazy"
+                    alt="Making Chicken Strips With New Delicious Ingridents." class="w-100">
+
+                  <div class="badge">Arroz</div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="card-meta-wrapper">
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time class="meta-info" datetime="2023-24-10">24 de Octubre del 2023 </time>
+                    </a>
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <p class="meta-info">Luciana Takahashi R.</p>
+                    </a>
+
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">¿Qué opinas del arroz?</a>
+                  </h3>
+
+                  <p class="card-text">
+                    En 5 Comentarios tu despensa, tu lienzo, nuestro arroz tu inspiración.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Leer más</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/partida.jpg" width="600" height="390" loading="lazy"
+                    alt="Innovative Hot Chessyraw Pasta Make Creator Fact." class="w-100">
+
+                  <div class="badge">Alberja Partida</div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="card-meta-wrapper">
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time class="meta-info" datetime="2022-27-12">17 de Diciembre del 2023 </time>
+                    </a>
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <p class="meta-info">Xiomara Villanueva M.</p>
+                    </a>
+
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">¿Qué opinas de las Alberjas?</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Un tesoro nutritivo en cada cucharada. Alberjas partidas que te brindan bienestar.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Leer más</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top" style="background-image: url('./assets/images/footer-illustration.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="" class="logo">Amantes de la cocina y buena sazon<span class="span">.</span></a>
+
+          <p class="footer-text">
+            ¡En 5MENTARIOS encuentras todo lo que necesitas para preparar las comidas más deliciosas!
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Datos de contacto</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">+51 981 406 803</p>
+          </li>
+
+          <li>
+            <address class="footer-list-item">Mz D Lote 14 calle unión 3era Etapa San José - Chilca</address>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Horario de apertura</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Lunes a viernes: 07:00 - 21:00</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Sabado 07:00 - 21:00</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Domingo: 07:00 - 21:00</p>
+          </li>
+
+        </ul>
+
+        <form action="" class="footer-form">
+          <br>
+          <br>
+          <p class="footer-list-title">Pedir un Producto</p>
+
+          <div class="input-wrapper">
+
+            <input type="text" name="full_name" required placeholder="Nombres" aria-label="Your Name"
+              class="input-field">
+
+            <input type="email" name="email_address" required placeholder="Corre Electronico" aria-label="Email"
+              class="input-field">
+
+          </div>
+
+          <div class="input-wrapper">
+
+            <select name="total_person" aria-label="Total person" class="input-field">
+              <option value="person">Cantidad</option>
+              <option value="2 person">1kg</option>
+              <option value="3 person">2kg</option>
+              <option value="4 person">3kg</option>
+              <option value="5 person">4kg</option>
+            </select>
+
+            <input type="date" name="booking_date" aria-label="Reservation date" class="input-field">
+
+          </div>
+
+          <textarea name="message" required placeholder="Mensaje" aria-label="Message" class="input-field"></textarea>
+
+          <button type="submit" class="btn">Pedir</button>
+
+        </form>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright-text">
+          &copy; 2024 <a href="#" class="copyright-link">Diaz D. / </a> diaz_l15.js
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
