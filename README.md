@@ -1,2 +1,2 @@
 # Abarrotes-Desing
-Es un diseño de pagina web para un abarrotes que desarrolle en mis practicas 
+Con un enfoque en simplicidad y accesibilidad, el diseño de esta página web para abarrotes muestra los productos en una galería interactiva, destacando los más vendidos. La navegación es clara, permitiendo a los usuarios encontrar lo que necesitan con facilidad.
